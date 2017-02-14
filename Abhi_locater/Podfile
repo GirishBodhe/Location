@@ -7,7 +7,8 @@ target 'Abhi_locater' do
 
   # Pods for Abhi_locater
   # pod 'SWRevealViewController'
-    
+  
+    pod 'Firebase/Core'
     
   target 'Abhi_locaterTests' do
     inherit! :search_paths

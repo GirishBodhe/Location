@@ -31,7 +31,6 @@
     self.displayMenu = [[NSMutableArray alloc]init];
     
     [self.displayMenu addObject:@"Events"];
-    [self.displayMenu addObject:@"Feedback"];
     [self.displayMenu addObject:@"About Us"];
     [self.displayMenu addObject:@"Sign Out"];
     [self.displayMenu addObject:@"Log In"];
