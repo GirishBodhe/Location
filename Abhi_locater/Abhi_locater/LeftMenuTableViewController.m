@@ -78,19 +78,19 @@
     
         if (indexPath.row==0) {
             [self performSegueWithIdentifier:@"Event" sender:self];
-        }else if (indexPath.row==1) {
-            
-             [self performSegueWithIdentifier:@"Event1" sender:self];
-        }
-        else if (indexPath.row==2) {
-            [self performSegueWithIdentifier:@"Event2" sender:self];
-        }else if (indexPath.row == 4)
-        {
-            [self performSegueWithIdentifier:@"Event3" sender:self];
-        }else
-        {
-          
-            [self performSegueWithIdentifier:@"Event4" sender:self];
+//        }else if (indexPath.row==1) {
+//            
+//             [self performSegueWithIdentifier:@"Event1" sender:self];
+//        }
+//        else if (indexPath.row==2) {
+//            [self performSegueWithIdentifier:@"Event2" sender:self];
+//        }else if (indexPath.row == 4)
+//        {
+//            [self performSegueWithIdentifier:@"Event3" sender:self];
+//        }else
+//        {
+//          
+//            [self performSegueWithIdentifier:@"Event4" sender:self];
         
         }
 //        else
@@ -159,27 +159,15 @@
 // In a storyboard-based application, you will often want to do a little preparation before navigation
 - (void) prepareForSegue: (UIStoryboardSegue *) segue sender: (id) sender
 {
-    if ( [segue isKindOfClass: [SWRevealViewControllerSeguePushController class]]  ) {
-        
-        
-        UINavigationController *navController = [segue destinationViewController];
-        HotelTableViewController *htvc = (HotelTableViewController *)navController.topViewController;
-        
-//      [self presentViewController:htvc animated:YES completion:nil];
+    
+    
+
         
         
         
-//        // Use to segue From One ViewControl to AnotherView Via SWREVEALVIEWCONTROLOR.....
-//        SWRevealViewControllerSeguePushController *swSegue = (SWRevealViewControllerSegue*) segue;
-//        
-//        swSegue.performBlock = ^(SWRevealViewControllerSegue* rvc_segue, UIViewController* svc, UIViewController* dvc) {
-//            
-//            UINavigationController* navController = (UINavigationController*)self.revealViewController.frontViewController;
-//            [navController setViewControllers: @[dvc] animated: NO ];
-//            [self.revealViewController setFrontViewPosition: FrontViewPositionLeft animated: YES];
-//        };
         
-    }
+    
+   
     
 }
 
