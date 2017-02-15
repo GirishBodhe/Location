@@ -23,6 +23,7 @@
 		AB0E861D1E5338F80093A79D /* HotelTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0E861C1E5338F80093A79D /* HotelTableViewController.m */; };
 		AB0E86201E533B3C0093A79D /* LeftMenuTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0E861F1E533B3C0093A79D /* LeftMenuTableViewController.m */; };
 		AB0E86231E534B380093A79D /* SWRevealViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB0E86221E534B380093A79D /* SWRevealViewController.m */; };
+		AB1464F51E545A8E00FF4B4B /* CamaraViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = AB1464F41E545A8E00FF4B4B /* CamaraViewController.m */; };
 		E30BF1F2D1817A11FA7D22B1 /* libPods-Abhi_locaterUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 4244A7DEBCF8B74C6DC491EC /* libPods-Abhi_locaterUITests.a */; };
 /* End PBXBuildFile section */
 
@@ -78,6 +79,8 @@
 		AB0E861F1E533B3C0093A79D /* LeftMenuTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LeftMenuTableViewController.m; sourceTree = "<group>"; };
 		AB0E86211E534B380093A79D /* SWRevealViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SWRevealViewController.h; sourceTree = "<group>"; };
 		AB0E86221E534B380093A79D /* SWRevealViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SWRevealViewController.m; sourceTree = "<group>"; };
+		AB1464F31E545A8E00FF4B4B /* CamaraViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CamaraViewController.h; sourceTree = "<group>"; };
+		AB1464F41E545A8E00FF4B4B /* CamaraViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CamaraViewController.m; sourceTree = "<group>"; };
 		E99FF9B96D22D7F84AB95BE2 /* Pods-Abhi_locater.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abhi_locater.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abhi_locater/Pods-Abhi_locater.release.xcconfig"; sourceTree = "<group>"; };
 		F79D3B6AE9046E3FFAAE8E25 /* Pods-Abhi_locaterTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Abhi_locaterTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Abhi_locaterTests/Pods-Abhi_locaterTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -176,6 +179,8 @@
 				95D8EBCC1E538C2E00C66414 /* SignInViewController.m */,
 				95D8EBCE1E538C3B00C66414 /* SignUpViewController.h */,
 				95D8EBCF1E538C3B00C66414 /* SignUpViewController.m */,
+				AB1464F31E545A8E00FF4B4B /* CamaraViewController.h */,
+				AB1464F41E545A8E00FF4B4B /* CamaraViewController.m */,
 			);
 			path = Abhi_locater;
 			sourceTree = "<group>";
@@ -488,6 +493,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB1464F51E545A8E00FF4B4B /* CamaraViewController.m in Sources */,
 				95D8EBCD1E538C2E00C66414 /* SignInViewController.m in Sources */,
 				AB0E861D1E5338F80093A79D /* HotelTableViewController.m in Sources */,
 				AB0E85ED1E5335FC0093A79D /* AppDelegate.m in Sources */,

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = 'F84AF28BB21FFB752113CA5B83C41E36'
+               BlueprintIdentifier = '9BEB6BFFE561EFF928BB026A6F6E6617'
                BlueprintName = 'Pods-Abhi_locater'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'libPods-Abhi_locater.a'>
